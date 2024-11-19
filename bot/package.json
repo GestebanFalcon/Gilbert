@@ -1,0 +1,26 @@
+{
+  "name": "createtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon bot.js",
+    "api": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.1",
+    "@discordjs/core": "^0.5.2",
+    "@discordjs/rest": "^1.7.0",
+    "@discordjs/ws": "^0.8.1",
+    "cors": "^2.8.5",
+    "discord-api-types": "^0.37.38",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.4.5",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
